@@ -23,6 +23,13 @@ git branch -M main
 git push -u origin main
 (如果出現 fatal: remote origin already exists，先執行git remote rm origin再繼續執行)
 
+8. 需要打開apach和mysql
+
+### step 5:
+1. 開啟 xampp
+2. DBMS --> add user/pwd = test123/test123
+3. pip install flask pandas pymysql sklearn
+4. 下載完後執行python appl.py
 
 
 
