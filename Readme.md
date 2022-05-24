@@ -1,4 +1,4 @@
-# Norah Lin's New Homework #5 (in 4107029007/aiot_hw5)(initial setup)
+# Norah Lin's New Homework #5 (in 4107029007/aiot_hw5)(app.py setting)
 from local generate a new repository on github my test
 ## Lecture 14: IoT Flask Web (github, vs code)
 
