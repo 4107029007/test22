@@ -25,6 +25,10 @@ git push -u origin main
 
 8. 需要打開apach和mysql
 
+### Step 2 : Create a initial html page
+1. 用index.html 和 app.py建立簡易初始畫面
+2. 在頁面上列印出hello world和this is our hw5的文字
+
 ### step 5:
 1. 開啟 xampp
 2. DBMS --> add user/pwd = test123/test123
