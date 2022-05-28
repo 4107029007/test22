@@ -29,6 +29,9 @@ git push -u origin main
 1. 用index.html 和 app.py建立簡易初始畫面
 2. 在頁面上列印出hello world和this is our hw5的文字
 
+### Step 3 : 用app.py和NoAI.html製作出有highchart的頁面
+1. 
+
 ### step 5:
 1. 開啟 xampp
 2. DBMS --> add user/pwd = test123/test123
