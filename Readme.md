@@ -31,7 +31,7 @@ git push -u origin main
 
 ### Step 3 : 用app.py和indexNoAI.html製作出有highchart的頁面
 1. 用noAI.html和app.py將db中的資料輸出並畫成highchart
-
+<img src="./step3.png" height=300/>
 ### Step 4: 用app.py和indexAI.html結合logist regression輸出highchart
 1. 
 
