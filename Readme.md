@@ -30,7 +30,7 @@ git push -u origin main
 2. 在頁面上列印出hello world和this is our hw5的文字
 
 ### Step 3 : 用app.py和NoAI.html製作出有highchart的頁面
-1. 
+1. 用noAI.html和app.py將db中的資料輸出並畫成highchart
 
 ### step 5:
 1. 開啟 xampp
