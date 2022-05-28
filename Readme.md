@@ -30,17 +30,20 @@ git push -u origin main
 2. 在頁面上列印出hello world和this is our hw5的文字
 
 ### Step 3 : 用app.py和indexNoAI.html製作出有highchart的頁面
-1. 用noAI.html和app.py將db中的資料輸出並畫成highchart
+1. 用indexnoAI.html和app.py將db中的資料輸出並畫成highchart
 <img src="./step3.png" height=300/>
 
-### Step 4: 用app.py和indexAI.html結合logist regression輸出highchart
-1. 
+### Step 4: 用app.py和indexAI.html結合logist regression
+1. 用indexAI.html和app.py將db中的資料用LR做predict
+2. 將predict出來的結果用highchart呈現（在頁面中點擊callAI)
+3. 同時也可以點擊setRandom將資料重新打亂呈現
+<img src="./step4.png" height=300/>
 
 ### step 5:
 1. 開啟 xampp
 2. DBMS --> add user/pwd = test123/test123
 3. pip install flask pandas pymysql sklearn
-4. 下載完後執行python appl.py
+4. 下載完後執行python app.py
 
 
 
