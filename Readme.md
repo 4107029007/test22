@@ -11,8 +11,8 @@ from local generate a new repository on github my test
   * 快捷鍵 ctrl+shift+p ===> package manager 叫出 (git clone....)
   * 快捷鍵 ctrl+' ==> 叫出終端機 
 6. (check-point 2) 為了要upload local file to github from local要終端機 C:> 設定下面 (不設定 branch default ='main')
-   * C:> git config --global user.name "username"
-   * C:> git config --global user.email useremail@gmail.com
+   * C:> git config --global user.name "4107029007"
+   * C:> git config --global user.email syringanorah@gmail.com
    
 7. C:> git remote add origin https://github.com/huanchen1107/aiot_0524.git 
 
