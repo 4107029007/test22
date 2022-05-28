@@ -29,8 +29,11 @@ git push -u origin main
 1. 用index.html 和 app.py建立簡易初始畫面
 2. 在頁面上列印出hello world和this is our hw5的文字
 
-### Step 3 : 用app.py和NoAI.html製作出有highchart的頁面
+### Step 3 : 用app.py和indexNoAI.html製作出有highchart的頁面
 1. 用noAI.html和app.py將db中的資料輸出並畫成highchart
+
+### Step 4: 用app.py和indexAI.html結合logist regression輸出highchart
+1. 
 
 ### step 5:
 1. 開啟 xampp
