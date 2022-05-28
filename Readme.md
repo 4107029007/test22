@@ -42,6 +42,7 @@ git push -u origin main
 1. 保留上一步的callAI按鈕，並加入setRandom按鈕
 2. 資料可以點擊setRandom將重新打亂呈現，也可以按callAI將其整理
 <img src="./step5.png" height=300/>
+
 ### 執行步驟:
 1. 開啟 xampp
 2. DBMS --> add user/pwd = test123/test123
