@@ -36,10 +36,13 @@ git push -u origin main
 ### Step 4: 用app.py和indexAI.html結合logist regression
 1. 用indexAI.html和app.py將db中的資料用LR做predict
 2. 將predict出來的結果用highchart呈現（在頁面中點擊callAI)
-3. 同時也可以點擊setRandom將資料重新打亂呈現
 <img src="./step4.png" height=300/>
 
-### step 5:
+### step 5: 讓highchart可以自由在random或LR間自由切換
+1. 保留上一步的callAI按鈕，並加入setRandom按鈕
+2. 資料可以點擊setRandom將重新打亂呈現，也可以按callAI將其整理
+
+### 執行步驟:
 1. 開啟 xampp
 2. DBMS --> add user/pwd = test123/test123
 3. pip install flask pandas pymysql sklearn
