@@ -18,9 +18,9 @@ from local generate a new repository on github my test
 
 if you want to change
 
-git remote add origin https://github.com/4107029007/aiot_hw5.git
-git branch -M main
-git push -u origin main
+git remote add origin https://github.com/4107029007/aiot_hw5.git \
+git branch -M main \
+git push -u origin main \
 (如果出現 fatal: remote origin already exists，先執行git remote rm origin再繼續執行)
 
 8. 需要打開apach和mysql
