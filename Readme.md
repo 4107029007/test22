@@ -30,7 +30,10 @@ git push -u origin main
 2. 在頁面上列印出hello world和this is our hw5的文字
 
 ### Step 3 : 用app.py和indexNoAI.html製作出有highchart的頁面
-1. 用indexnoAI.html和app.py將db中的資料輸出並畫成highchart
+1. 執行app.py後首先呼叫indexNoAI.html
+2. html中首先會呼叫app.py中的getData函式
+3. 通過getData的function去存取資料庫中的資料並將其以json格式輸出
+4. 得到資料後再將其回傳至indexNoAI.html並用highchart將其呈現
 <img src="./step3.png" height=300/>
 
 ### Step 4: 用app.py和indexAI.html結合logist regression
