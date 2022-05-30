@@ -44,9 +44,12 @@ git push -u origin main
 5. 將predict出來的結果回傳至html並用highchart呈現（在頁面中點擊callAI)
 <img src="./step4.png" height=300/>
 
-### step 5: 讓highchart可以自由在random或LR間自由切換
+### Step 5: 讓highchart可以自由在random或LR間自由切換
 1. 保留上一步的callAI按鈕，並加入setRandom按鈕
-2. 資料可以點擊setRandom將重新打亂呈現，也可以按callAI將其整理
+2. 執行app.py後首先會呈現用LR模型預測出的highchart圖
+3. 可以通過點擊setRandom去呼叫getData將資料重新打亂呈現(如step3)
+4. 將資料打亂後，也可以通過點擊callAI按鈕呼叫getPredict的函式將資料重新用LR膜性做預測並呈現(如step4) \
+(可以將step5看成step3+step4的綜合版)
 <img src="./step5.png" height=300/>
 
 ### 執行步驟:
