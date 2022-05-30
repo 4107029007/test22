@@ -37,8 +37,11 @@ git push -u origin main
 <img src="./step3.png" height=300/>
 
 ### Step 4: 用app.py和indexAI.html結合logist regression
-1. 用indexAI.html和app.py將db中的資料用LR做predict
-2. 將predict出來的結果用highchart呈現（在頁面中點擊callAI)
+1. 執行app.py後首先呼叫indexAI.html
+2. html中首先會呼叫app.py中的getPredict函式
+3. 通過getPredict的function去存取資料庫中的資料
+4. 將取出的資料用已訓練好的模型myModel.pgz預測
+5. 將predict出來的結果回傳至html並用highchart呈現（在頁面中點擊callAI)
 <img src="./step4.png" height=300/>
 
 ### step 5: 讓highchart可以自由在random或LR間自由切換
